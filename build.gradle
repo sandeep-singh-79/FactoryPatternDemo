@@ -33,6 +33,7 @@ tasks.withType(Test) {
 	useTestNG{
 		useDefaultListeners = true
 	}
+	
 	systemProperties = System.getProperties()
 	
 	maxParallelForks = 2

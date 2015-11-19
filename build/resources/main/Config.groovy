@@ -4,6 +4,13 @@ url = 'http://stackoverflow.com'
 // functionality for screenshots still to be added to application
 take_screenshot = false
 
+// timeout for implicit and webdriverwait
+WEBDRIVERWAIT_TIMEOUT = 30
+IMPLICITWAIT_TIMEOUT = 10
+// webdriverwait polling timeout in milliseconds
+WEBDRIVERWAIT_POLL = 10
+
+
 seleniumConfigs {
 	local {
 		browser = 'chrome'
