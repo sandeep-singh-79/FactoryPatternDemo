@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.demo.POM.factory.test.ExampleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-11-19T13:34:26" hostname="SSINGH" time="6.231">
-  <properties/>
-  <testcase name="clickQuestionsTest" classname="com.demo.POM.factory.test.ExampleTest" time="4.322"/>
-  <testcase name="isLogoDisplayedTest" classname="com.demo.POM.factory.test.ExampleTest" time="0.343"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
