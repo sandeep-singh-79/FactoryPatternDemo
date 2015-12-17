@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gradle suite" duration-ms="21081" started-at="2015-11-19T13:34:12Z" finished-at="2015-11-19T13:34:33Z">
+    <groups>
+    </groups>
+    <test name="Gradle test" duration-ms="21081" started-at="2015-11-19T13:34:12Z" finished-at="2015-11-19T13:34:33Z">
+      <class name="com.demo.POM.factory.test.ExampleTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.demo.POM.factory.test.ExampleTest@39893610]" name="beforeClass" is-config="true" duration-ms="2976" started-at="2015-11-19T19:04:12Z" finished-at="2015-11-19T19:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo.POM.factory.test.ExampleTest@39893610]" name="beforeMethod" is-config="true" duration-ms="10232" started-at="2015-11-19T19:04:15Z" finished-at="2015-11-19T19:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickQuestionsTest()[pri:0, instance:com.demo.POM.factory.test.ExampleTest@39893610]" name="clickQuestionsTest" duration-ms="4322" started-at="2015-11-19T19:04:26Z" finished-at="2015-11-19T19:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickQuestionsTest -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.demo.POM.factory.test.ExampleTest@39893610]" name="deleteAllCookies" is-config="true" duration-ms="121" started-at="2015-11-19T19:04:30Z" finished-at="2015-11-19T19:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo.POM.factory.test.ExampleTest@39893610]" name="beforeMethod" is-config="true" duration-ms="1442" started-at="2015-11-19T19:04:30Z" finished-at="2015-11-19T19:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isLogoDisplayedTest()[pri:0, instance:com.demo.POM.factory.test.ExampleTest@39893610]" name="isLogoDisplayedTest" duration-ms="343" started-at="2015-11-19T19:04:31Z" finished-at="2015-11-19T19:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLogoDisplayedTest -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.demo.POM.factory.test.ExampleTest@39893610]" name="deleteAllCookies" is-config="true" duration-ms="77" started-at="2015-11-19T19:04:32Z" finished-at="2015-11-19T19:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.demo.POM.factory.test.ExampleTest@39893610]" name="afterClass" is-config="true" duration-ms="1551" started-at="2015-11-19T19:04:32Z" finished-at="2015-11-19T19:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.demo.POM.factory.test.ExampleTest -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

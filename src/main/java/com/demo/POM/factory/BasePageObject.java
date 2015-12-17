@@ -5,6 +5,9 @@ import groovy.util.ConfigObject;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,12 +21,20 @@ public abstract class BasePageObject {
 	private ConfigObject config = FrameworkConfig.getConfig();
 
 	public BasePageObject(WebDriver driver) {
-		this.driver = driver;
-		this.wait = new WebDriverWait(this.driver,
-				(new Long(config.get("WEBDRIVERWAIT_TIMEOUT").toString())),
-				(new Long(config.get("WEBDRIVERWAIT_POLL").toString())));
-		
-		isLoaded();
+		try {
+			this.driver = driver;
+			this.wait = new WebDriverWait(this.driver,
+					(new Long(config.get("WEBDRIVERWAIT_TIMEOUT").toString())),
+					(new Long(config.get("WEBDRIVERWAIT_POLL").toString())));
+			
+			isLoaded();
+		}catch(NoSuchElementException e) {
+			e.printStackTrace();
+		}catch(StaleElementReferenceException | TimeoutException e) {
+			e.printStackTrace();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	/**
