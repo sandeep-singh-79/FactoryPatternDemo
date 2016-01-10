@@ -1,4 +1,5 @@
-package com.demo.POM.factory.driver;
+package com.demo.POM.factory.driver
+import com.demo.POM.factory.FrameworkConfig;
 /**
  * The base class for creating a WebDriver instance based on whether the
  * requested driver is local, remote or mobile
@@ -8,13 +9,7 @@ package com.demo.POM.factory.driver;
  * @author SANDEEP
  *
  */
- 
-import groovy.util.ConfigObject;
-
-import org.openqa.selenium.WebDriver;
-
-import com.demo.POM.factory.FrameworkConfig;
-
+import org.openqa.selenium.WebDriver
 
 abstract class Driver {
 	
