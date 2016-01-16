@@ -17,8 +17,6 @@ class HomePage extends BasePageObject {
 	@FindBy(id="nav-questions")
 	List<WebElement> questionsTab
 
-    By menuBarLocator = By.cssSelector("div#hmenus")
-
 	HomePage(WebDriver driver) {
 		super(driver)
 	}

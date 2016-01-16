@@ -9,7 +9,9 @@ class FrameworkConfig {
 					.toURI().toURL())
 		} catch (MalformedURLException e) {
 			println("unable to locate Config file.")
+			e.getCause()
 			e.printStackTrace()
+			throw e
 			return null;
 		}
 	}
