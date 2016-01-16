@@ -13,9 +13,7 @@ abstract class BasePageObject {
 
 	BasePageObject(WebDriver driver) {
 		this.driver = driver
-        this.wait = new WebDriverWait(this.driver,
-                (new Long(config.get("WEBDRIVERWAIT_TIMEOUT").toString())),
-                (new Long(config.get("WEBDRIVERWAIT_POLL").toString())))
+        this.wait = new WebDriverWait(this.driver, config.WEBDRIVERWAIT_TIMEOUT, config.WEBDRIVERWAIT_POLL)
 
 		isLoaded()
 	}

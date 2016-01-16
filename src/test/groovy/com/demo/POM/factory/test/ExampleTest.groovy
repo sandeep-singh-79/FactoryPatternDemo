@@ -1,4 +1,4 @@
-package com.demo.POM.factory.test;
+package com.demo.POM.factory.test
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -11,7 +11,7 @@ import com.demo.POM.factory.pages.QuestionsPage;
 class ExampleTest extends BaseTest{
   
 	ExampleTest() {
-        super();
+        super()
     }
 
     @Test
